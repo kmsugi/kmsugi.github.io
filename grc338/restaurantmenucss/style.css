@@ -1,5 +1,3 @@
-/*CSS document*/
-
 html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
 img {
 	width: 100%;
@@ -7,17 +5,17 @@ img {
 }
 
 body {
-	background-color: rgb(250,250,240); /* Not totally white. */
-	color: rgb(20,20,20);  /* Not totally black. */
-	line-height: 140%; 	/* A little extra leading. */
+	background-color: rgb(250,250,240);
+	color: rgb(20,20,20);
+	line-height: 140%;
 	font-family: sans-serif;
 }
 
 h1 {
 	background-color: rgb(140,145,150);
-	color: rgb(250,250,240); /* Same as body background. */
+	color: rgb(250,250,240);
 	font-size: 3em;
-	padding: 1em.5em 1em; /* You want three values. */
+	padding: 1em.5em 1em;
 	font-weight: bold;
 	text-transform: capitalize;
 }
@@ -33,13 +31,13 @@ h2 {
 }
 
 h3 {
-	margin: 4em 1em 1em; /*Three values again. You got the idea.*/
+	margin: 4em 1em 1em;
 	padding-top: 1em;
 	font-size:2em;
 	color: rgb(150,20,20);
 	font-weight: bold;
 	text-transform: capitalize;
-	letter-spacing: 0.05em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
+	letter-spacing: 0.05em;
 	border-top: 3px solid;
 }
 
