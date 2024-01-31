@@ -19,7 +19,7 @@ h1 {
 	font-size: 3em;
 	padding: 1em.5em 1em; /* You want three values. */
 	font-weight: bold;
-	text-transform: capitalize;
+	text-transform: uppercase;
 }
 
 
@@ -38,7 +38,7 @@ h3 {
 	font-size:2em;
 	color: rgb(150,20,20);
 	font-weight: bold;
-	text-transform: capitalize;
+	text-transform: uppercase;
 	letter-spacing: 0.05em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
 	border-top: 3px solid;
 }
