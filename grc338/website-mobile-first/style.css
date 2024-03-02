@@ -29,6 +29,7 @@ img {
 
 header {
 	display: block;
+	height: 10em;
 	grid-template-columns: ____ ____;
 	background: rgb(192,192,192);
 	padding: 1em 1em 0em;
