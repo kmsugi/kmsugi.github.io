@@ -3,19 +3,26 @@
 html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
 
 
+body {
+	font-family: sans-serif;
+	background-color: rgb(255,0,0);
+	}
+	
 div.home-container { 
 	background: url(home-background.jpg) center center fixed;
 	background-size: cover;
 	position: relative;
-	margin: 0em 5em;
+	margin: auto;
 	min-height: 100vh;
+	max-width: 90em;
 }
 
 div.container { 
 	position: relative;
 	min-height: 100vh;
-	margin: 0em 5em;
-	background-color: rgb(255,255,255)
+	margin: auto;
+	background-color: rgb(255,255,255);
+	max-width: 90em;
 }
 
 /* >>> IMPORTANT: you have to change the wrap the content of your home page (index) in a div with a class home-container to make it work. If you used a div with the class container on your home, you’ll only need to change the name of the class.  */
@@ -23,11 +30,6 @@ div.container {
 
 main { 
 	padding: .5em 0em 1em;
-	}
-
-body {
-	font-family: sans-serif;
-	background-color: rgb(255,0,0);
 	}
 
 img {
@@ -87,8 +89,9 @@ figure {
 
 article{
 	background-color: rgb(0,255,255);
-	margin: 0em 15em;
+	margin: auto;
 	padding-bottom: 2em;
+	max-width: 50em;
 }
 main.menu ul {
 		margin:  2em 1.5em;
