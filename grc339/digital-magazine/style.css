@@ -1,0 +1,131 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+div.container{
+    margin: auto;
+    position: relative;
+    max-width: 40em;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+    display: block;
+    height: auto;
+    margin: 0em;
+    padding: 0em;
+}
+
+header{
+    height: auto;
+    
+}
+
+h1{
+    width: 7em;
+    padding: 0em 0em 1em;
+}
+
+h2{
+    font-family: serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #566D7E;
+    font-size: 2.5em;
+    margin: 1em 0em 0em;
+    
+}
+
+nav{
+    font-family: sans-serif;
+    color: #566D7E;
+    font-weight: bold;
+    margin-bottom: 1em;
+    overflow: hidden;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0em;
+    margin: 0em;
+}
+
+nav ul li{
+    display:inline;
+    margin-right: 1em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#566D7E;
+}
+
+@media (max-width: 40em) {  
+    nav ul li{
+        display:block;
+        margin-right: 0em;
+        margin-bottom: .5em;
+    }
+    
+    nav ul li a{
+        display: block;
+    }
+}
+
+p{
+    margin: 1em 0em;
+    color: #000000;
+}
+
+aside{
+    background-color: #CCCCFF;
+    padding: .5em;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+figcaption{
+    font-family: sans-serif;
+    font-style: italic;
+    padding: 1em 0em 1em;
+    color: #808080;
+}
+
+section.secondarystory h2{
+    font-family: serif;
+    text-decoration: none;
+    color: #566D7E;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+section.tertiarystory h2 {
+    font-family: serif;
+    text-decoration: none;
+    color: #566D7E;
+    font-size: 1em;
+    margin: 1em 0em 0em;
+    padding: 1em 0em 0em;
+    border-top: 1px solid #566D7E;
+}
+
+section.mainsecondarystory h2{
+    font-family: serif;
+    text-decoration: none;
+    color: #566D7E;
+    font-size: 1em;
+}
+
+footer{
+    background-color: #566D7E;
+    padding: 1em 0em;
+    margin: 0em;
+    color: #ffffff;
+}
