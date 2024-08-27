@@ -10,7 +10,8 @@ div.container, div.home-container{
 }
 
 body{
-    font-family: sans-serif;
+    font-family: "sofia-pro", sans-serif;
+    background-color: #F5EFEB;
 }
 
 img {
@@ -32,21 +33,21 @@ h1{
 }
 
 h2{
-    font-family: serif;
+    font-family: "new-spirit",serif;
     font-weight: bold;
     text-decoration: none;
-    color: #566D7E;
+    color: #567C8D;
     font-size: 2em;
     margin: 1em 0em 0em;
     
 }
 
 nav{
-    font-family: sans-serif;
-    color: #566D7E;
+    font-family: "sofia-pro", sans-serif;
+    color: #567C8D;
     font-weight: bold;
-    margin-bottom: 1em;
     overflow: hidden;
+    font-size: 1.5em;
 }
 
 nav ul{
@@ -62,7 +63,7 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color:#566D7E;
+    color: #2F4156;
 }
 
 @media (max-width: 40em) {  
@@ -83,7 +84,6 @@ p{
 }
 
 aside{
-    background-color: #CCCCFF;
     padding: .5em;
 }
 
@@ -93,42 +93,44 @@ a{
 }
 
 figcaption{
-    font-family: sans-serif;
+    font-family: "sofia-pro", sans-serif;
     font-style: italic;
     padding: 1em 0em 1em;
     color: #808080;
 }
 
 section.secondarystory h2{
-    font-family: serif;
+    font-family: "new-spirit",serif;
     text-decoration: none;
-    color: #566D7E;
+    color: #567C8D;
     font-size: 2em;
-    font-weight: bold;
+    font-weight: lighter;
 }
 
 section.tertiarystory h2 {
-    font-family: serif;
+    font-family: "new-spirit",serif;
     text-decoration: none;
-    color: #566D7E;
+    color: #567C8D;
     font-size: 1em;
     margin: 1em 0em 0em;
     padding: 1em 0em 0em;
-    border-top: 1px solid #566D7E;
+    border-top: 1px solid #C8D9E6;
+    font-weight: lighter;
 }
 
 section.mainsecondarystory h2{
-    font-family: serif;
+    font-family: "new-spirit",serif;
     text-decoration: none;
-    color: #566D7E;
+    color: #567C8D;
     font-size: 1em;
+    font-weight: lighter;
 }
 
 footer{
-    background-color: #566D7E;
+    background-color: #C8D9E5;
     padding: 1em 0em;
     margin: 0em;
-    color: #ffffff;
+    color: #2D4156;
     box-sizing: border-box;
 }
 
