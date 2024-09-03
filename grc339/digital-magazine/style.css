@@ -5,13 +5,15 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
 div.container, div.home-container{
     margin: 0 auto;
     position: relative;
-    max-width: 40em;
-    padding: 1em;
+    max-width: 60em;
+    padding: 1em 1em 0em;
 }
 
 div.newsletter{
+    margin: 0 auto;
+    position: relative;
     max-width: 60em;
-    margin: auto;
+    padding: 1em 1em 0em;
 }
 
 body{
@@ -35,7 +37,6 @@ header{
 main{
     position: relative;
     overflow: hidden;
-    padding-bottom: calc(70% + 3em);
 }
 
 h1{
@@ -49,7 +50,7 @@ h2{
     text-decoration: none;
     color: #567C8D;
     font-size: 2em;
-    margin: 1em 0em 0em;
+    margin: .5em 0em 0em;
     
 }
 
@@ -248,9 +249,8 @@ main.photo-gallery {
 }
 	
 h2.photo-gallery {
-	font-family: The Seasons;
-	font-size: 2.3em;
-    padding-top: 1em;
+	font-family: "new-spirit",serif;
+	font-size: 2em;
     margin-bottom: 1em;
 }	
 	
@@ -269,10 +269,10 @@ main.photo-gallery img {
 }
 
 main.photo-gallery figcaption { 
-    font-size: 1.2em;
+    font-size: 1.5em;
 	font-weight: bold;
-    margin: 0.5em 0; 
-    color: #55554A;
+    color: #567C8D;
+    padding: 1em 0em 0em;
 }
 	
 main.photo-gallery p {
@@ -325,7 +325,7 @@ div.photo-gallery{
     margin: 0 auto;
     position: relative;
     max-width: 60em;
-    padding: 1em;
+    padding: 1em 1em 0em;
 }
 
 main.newsletter {
